@@ -1,41 +1,33 @@
-# Validus
+# Ardana
 
-Universal Caller ID & Crypto for Immigration.
+AI-Powered On-Chain Investment Platform for Effortless DeFi Growth.
 
 ## ⚠️ Problem to Solve.
 
-### Universal Caller ID
+Managing DeFi investments is still too complex for most users. Even experienced crypto holders struggle to decide where to allocate assets — lending, staking, liquidity provision, yield farming or governance staking — across dozens of protocols and chains.
 
-Managing unwanted and spam calls is a significant issue for many users. Truecaller is a widely used app that provides call identification, spam call blocking and an organized inbox. However, there is still a need for a better and more decentralized system.
+Tracking yields, understanding risks and optimizing returns require constant monitoring, gas spending and manual execution. Users often end up leaving idle stablecoins in wallets or spreading assets across platforms without a unified strategy or dashboard.
 
-### Crypto + Immigration
-
-It’s really hard to figure out who to let into the country and who not to. Existing systems, such as Canada’s points-based immigration system, are hard to design and often fail. A better system would allow citizens to directly participate in the decision-making process by staking crypto on candidates they believe will contribute positively to the economy.
+There’s a need for a personalized, automated and transparent on-chain investment assistant that can analyze wallet assets, recommend optimal DeFi strategies and execute investments securely — all in one interface.
 
 ---
 
 ## ✅ Possible Solution.
 
-### **Universal Caller ID** (DePIN Concept)
+**Ardana** is an AI-powered DeFi investment app that lets users deploy, lock and track assets across protocols effortlessly. When a user connects their wallet, Validus automatically analyzes on-chain balances and offers AI-configured investment strategies tailored to the user’s risk profile, goals, and token holdings. Users can choose to:
 
-**Validus** offers a universal caller ID system where contributors are rewarded using decentralized physical infrastructure network (DePIN) concepts:
+- Follow AI Recommendations: Auto-invest in strategies like lending, staking, and liquidity provision for optimized yield.
+- Self-Manage Investments: Manually allocate assets across DeFi pools and track all investments in one dashboard.
 
-1. **Decentralized Contribution**: Contributors earn tokens for providing access to their contacts, labeling spam, verifying IDs, etc.
-2. **Token Payment System**: Users and businesses pay in tokens for caller ID, verification, login, and other services.
-3. **Open Development**: Developers can build apps and tools on the contact network, creating a decentralized ecosystem for managing call identification.
-
-### **Crypto + Immigration System**
-
-The **$TALENT coin** allows citizens to back immigration candidates through a decentralized, self-adjusting referral system:
-
-1. **Government Issuance**: The government issues a certain amount of $TALENT coins to citizens each year.
-2. **Citizen Backing**: Citizens stake their $TALENT coins on individuals they believe will add economic value to the country.
-3. **Immigration Eligibility**: If candidates accumulate enough $TALENT, they can immigrate and work in the country.
-4. **Economic Rewards**: If backed candidates generate economic value (salary, capital), a portion of that value is shared with the $TALENT holders who supported them.
-5. **Bonding Curve**: The earlier a citizen backs a successful candidate, the higher percentage of their economic value they earn.
-6. **Dynamic Adjustments**: The system is self-adjusting. Citizens who back successful candidates receive more $TALENT to stake next year, while those who back unsuccessful candidates receive less.
-
-This system eliminates the need for arbitrary points-based immigration schemes and allows citizens to directly influence immigration based on their understanding of the country's needs.
+Once funds are locked, Ardana manages compounding, rebalancing and reinvestment automatically. Users can simply “set it and forget it,” returning later to see their capital working on-chain. It also includes some core features like:
+- **AI Strategy Engine:** Analyzes wallet portfolio and market conditions to suggest personalized investment allocations.
+- **Unified On-Chain Dashboard:** View and manage all DeFi positions (lending, staking, LPs, vaults) in one place.
+- **Smart Locking System:** Allow users to lock funds for chosen periods in AI-generated yield strategies.
+- **Cross-Protocol Integration:** Interact with lending, DEX, and staking protocols (Aave, Compound, Lido, Raydium, etc.).
+- **Yield & Risk Analytics:** View real-time yield rates, APYs, and risk breakdowns per strategy.
+- **Auto-Rebalancing:** Adjust allocations dynamically based on changing market conditions.
+- **Portfolio Tracking:** Track wallet balance growth, investment performance, and transaction history seamlessly.
+- **Gas & Fee Optimization:** Aggregate on-chain operations to minimize transaction costs.
 
 ---
 
@@ -48,13 +40,18 @@ This system eliminates the need for arbitrary points-based immigration schemes a
 
 ## 🛠 Tools, Languages & Frameworks used.
 
-- **ReactJS**: Frontend library for building interactive user interfaces.
-- **Node.js**: Backend runtime environment for server-side JavaScript.
-- **Express.js**: Web framework for building RESTful APIs on Node.js.
-- **Solidity**: Smart contract language to handle $TALENT staking and reward distribution.
-- **IPFS**: Decentralized storage for contact and identity data.
-- **Web3.js**: JavaScript library for interacting with the Ethereum blockchain.
-- **Ethereum**: Blockchain for decentralized application and $TALENT coin transactions.
+- **ReactJS:** Frontend library for creating interactive dashboards and real-time portfolio tracking.
+- **TypeScript:** For strong typing and cleaner code across frontend and backend.
+- **Node.js:** Backend runtime environment to handle strategy computation, API calls, and protocol integrations.
+- **Express.js:** Framework for building RESTful APIs for wallet connections, investments, and yield tracking.
+- **Solidity / Rust:** Smart contract languages for creating asset vaults, staking mechanisms, and automated strategies.
+- **Web3.js / Ethers.js:** Libraries for interacting with EVM-based blockchains.
+- **Solana Web3.js (optional):** For cross-chain DeFi strategy expansion.
+- **OpenAI API / ML Engine:** Powers the AI strategy recommendation system.
+- **PostgreSQL / MongoDB:** Databases for storing user portfolios, yield history, and analytics data.
+- **Redis:** Used for caching and real-time updates of APY and protocol data.
+- **IPFS:** For decentralized storage of strategy metadata and reports.
+- **DeFi Protocol SDKs:** Aave, Compound, Lido, Uniswap, Raydium and others for live integrations.
 
 ---
 
@@ -74,11 +71,11 @@ This system eliminates the need for arbitrary points-based immigration schemes a
 
 ## 🔃 Steps to be followed in order to make valid contributions to this repo.
 
-**1.** Fork the [Validus](https://github.com/mrinnnmoy/Validus) repo by clicking on the fork button on the top of the page. This will create a copy of this repository in your account.
+**1.** Fork the [Ardana](https://github.com/mrinnnmoy/Ardana) repo by clicking on the fork button on the top of the page. This will create a copy of this repository in your account.
 
 **2.** Clone the forked repository
 
-        git clone "https://github.com/<your-github-username>/Validus"
+        git clone "https://github.com/<your-github-username>/Ardana"
 
 - Download and install Node JS v16.16.0
 - Download and install Git.
